@@ -1,0 +1,116 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "global_ev_adoption_behavior_2026.csv",
+				"fileSystem": "raw"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "age",
+				"type": "String"
+			},
+			{
+				"name": "annual_income",
+				"type": "String"
+			},
+			{
+				"name": "education_level",
+				"type": "String"
+			},
+			{
+				"name": "city_type",
+				"type": "String"
+			},
+			{
+				"name": "daily_commute_km",
+				"type": "String"
+			},
+			{
+				"name": "weekly_travel_distance_km",
+				"type": "String"
+			},
+			{
+				"name": "current_vehicle_type",
+				"type": "String"
+			},
+			{
+				"name": "vehicle_age_years",
+				"type": "String"
+			},
+			{
+				"name": "fuel_expense_per_month",
+				"type": "String"
+			},
+			{
+				"name": "charging_station_accessibility",
+				"type": "String"
+			},
+			{
+				"name": "nearest_charging_station_km",
+				"type": "String"
+			},
+			{
+				"name": "home_charging_available",
+				"type": "String"
+			},
+			{
+				"name": "electricity_cost_per_kwh",
+				"type": "String"
+			},
+			{
+				"name": "environmental_awareness_score",
+				"type": "String"
+			},
+			{
+				"name": "government_incentive_awareness",
+				"type": "String"
+			},
+			{
+				"name": "technology_affinity_score",
+				"type": "String"
+			},
+			{
+				"name": "range_anxiety_score",
+				"type": "String"
+			},
+			{
+				"name": "battery_replacement_concern",
+				"type": "String"
+			},
+			{
+				"name": "ev_knowledge_score",
+				"type": "String"
+			},
+			{
+				"name": "previous_ev_experience",
+				"type": "String"
+			},
+			{
+				"name": "ev_adoption_likelihood",
+				"type": "String"
+			},
+			{
+				"name": "monthly_energy_consumption_kwh",
+				"type": "String"
+			},
+			{
+				"name": "monthly_charging_cost",
+				"type": "String"
+			}
+		]
+	}
+}
