@@ -1,0 +1,15 @@
+{
+	"name": "adf-pipelinehub-dev",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ea485391-0ebd-4d6c-b798-112bd836afac",
+		"tenantId": "2024b3d4-3cb8-4246-a18e-344c34214d47"
+	}
+}
